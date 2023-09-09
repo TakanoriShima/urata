@@ -1,6 +1,6 @@
 class FavoritesController < ApplicationController
-  before_action :only_once,   only:[:create] 
-  　
+  before_action :only_once, only:[:create] 
+
   def create
     favorite = Favorite.new
     favorite.user_id = current_user.id
