@@ -97,3 +97,4 @@ group :test do
 end
 
 gem "prettier"
+gem 'puma-daemon', require: false
